@@ -39,7 +39,7 @@ export function Footer({ className, ...rest }: FooterProps) {
           <Link href={paths.$url()} passHref legacyBehavior>
             <a href="pass" className="hidden sm:inline-block">
               <div className="mt-px group block h-16 w-28 relative grayscale">
-                <Image src="/saleor.svg" alt="Saleor logo" layout="fill" />
+                <Image src="/logo.svg" alt="Store logo" layout="fill" />
               </div>
             </a>
           </Link>
@@ -103,7 +103,7 @@ export function Footer({ className, ...rest }: FooterProps) {
         </div>
         <div className="flex items-center">
           <p className="text-sm text-main-3 flex-grow">
-            © Copyright 2018 - {new Date().getFullYear()} Saleor Commerce
+            © Copyright 2022 - {new Date().getFullYear()} Bikram's Store
           </p>
           <div className="invisible md:visible flex gap-4">
             <ChannelDropdown horizontalAlignment="right" />
