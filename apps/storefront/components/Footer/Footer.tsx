@@ -103,7 +103,7 @@ export function Footer({ className, ...rest }: FooterProps) {
         </div>
         <div className="flex items-center">
           <p className="text-sm text-main-3 flex-grow">
-            © Copyright 2022 - {new Date().getFullYear()} Bikram's Store
+            © Copyright 2022 - {new Date().getFullYear()} Bikram&apos;s Store
           </p>
           <div className="invisible md:visible flex gap-4">
             <ChannelDropdown horizontalAlignment="right" />
